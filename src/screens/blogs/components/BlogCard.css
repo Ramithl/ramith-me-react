@@ -1,0 +1,16 @@
+.blog-card h1{
+    font-size:x-large;
+    color: crimson;
+    text-align: left !important;
+}
+
+.blog-card h2{
+    font-size: medium;
+    color: grey;
+}
+
+.blog-card p {
+    color: black;
+    font-size: small;
+}
+

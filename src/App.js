@@ -4,6 +4,7 @@ import './App.css';
 import Home from './screens/Home';
 import About from './screens/About';
 import Projects from './screens/Projects';
+import Blogs from './screens/blogs/Blogs';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       </Route>
       <Route path='/projects' exact>
         <Projects />
+      </Route>
+      <Route path='/blogs' exact>
+        <Blogs />
       </Route>
     </Switch>
   </Router>
