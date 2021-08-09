@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Typed from 'react-typed';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 function Home(){
@@ -31,6 +32,7 @@ function Home(){
                     smartBackspace
                 />
                 </div>
+                <FontAwesomeIcon icon={['fab', 'apple']} />
                 
             </div>
         </div>

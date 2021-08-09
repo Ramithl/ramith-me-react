@@ -2,9 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './Projects.css';
 import './ProjectCard';
 
-
-
-
 function Projects(){
 
     const [items, setItems] = useState([]);
@@ -19,20 +16,21 @@ function Projects(){
             )
     }, [])
 
-        
-    
-    
 
     return (
         <div className="projects-div">
             <div class="container">
-                <div class="row">
+                <div class="heading">
+                    <h1>Projects</h1>
+                    <p>Recents projects I've been working on.</p>
+                </div>
+                <div class="row mx-2">
                     {items.map(item => (
-                        <div className="col-md-4">
+                        <div className="col-md-4 pt-3">
                             
-                                        <img alt="design" src={item.images.normal} />
-                                        <h1>{item.title}</h1>
-                                 
+                            <img class="rounded mx-auto d-block" alt="design" src={item.images.normal} />
+                            <h1 class="mt-3">{item.title}</h1>
+                            <p class="mx-2">{item.description}</p>
                         </div>
                     ))}
                 </div>

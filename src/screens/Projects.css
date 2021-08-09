@@ -1,21 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 .projects-div{
     background-color: rgb(0, 0, 0);
-    
-    
-    
+    padding-top: 3rem;
 }
-h1{
-    font-family: 'Poppins', sans-serif;
+
+.projects-div h1{
+    font-family: 'Roboto', sans-serif !important;
     color: rgb(255, 198, 12) !important;
-    font-size: 50px;
+    font-size: x-large !important;
+    margin-top: 2rem;
 }
 p{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    
-    
+    color: rgb(204, 204, 204);
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.cover-image{
+    align-content: center;
+}
+
+.heading{
+    text-align: center;
+}
+.heading h1{
+    font-family: 'Poppins', sans-serif !important;
+    color: rgb(255, 198, 12);
+}
+
+.heading p{
+    color: rgb(197, 197, 197);
 }
