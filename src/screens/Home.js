@@ -19,10 +19,9 @@ function Home(){
 
     return (
         <div className="home-div">
-            <div class="col-8 offset-2 align-self-center">
+            <div class="col-md-6 offset-md-3 align-self-center">
                 <h1>Hello!</h1>
                 <h1>I am Ramith Laksara</h1>
-                
                 <div className='typewriter'>
                 <Typed
                     strings={typedText}

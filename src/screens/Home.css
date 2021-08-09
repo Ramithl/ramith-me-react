@@ -9,12 +9,12 @@
     align-content: center;
     
 }
-h1{
+.home-div h1{
     font-family: 'Poppins', sans-serif;
     color: rgb(255, 198, 12);
-    font-size: 50px;
+    font-size: 280%;
 }
-p{
+.home-div p{
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;

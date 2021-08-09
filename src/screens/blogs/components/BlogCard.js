@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 
 
 
-function About(props){
+function BlogCard(props){
     return (
 
         <div class="card mt-3">
@@ -13,7 +13,6 @@ function About(props){
                     <h1>{props.title}</h1>
                     <h2>{props.date}</h2>
                     <p>{props.description}</p>
-                    
                 </div>
             </div>
             <div class="card-footer">
@@ -26,4 +25,4 @@ function About(props){
     );
 }
 
-export default About;
+export default BlogCard;
