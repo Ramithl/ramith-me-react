@@ -2,9 +2,21 @@ import React from 'react';
 import './Home.css';
 import Typed from 'react-typed';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Lottie from 'react-lottie';
+import * as hello from '../img/lf30_editor_npjws31j.json';
 
 
 function Home(){
+
+    const defaultOptions1 = {
+        loop: true,
+        autoplay: true,
+        animationData: hello.default,
+        rendererSettings: {
+          preserveAspectRatio: "xMidYMid slice",
+        },
+      };
+
     const typedText = 
         [
             "I am a <strong>Graphic Designer</strong>.",
@@ -21,7 +33,8 @@ function Home(){
     return (
         <div className="home-div">
             <div class="col-md-6 offset-md-3 align-self-center">
-                <h1>Hello!</h1>
+                <Lottie options={defaultOptions1} height={250} width={250}/>
+                <h1 class="hello">Hello!</h1>
                 <h1>I am Ramith Laksara</h1>
                 <div className='typewriter'>
                 <Typed

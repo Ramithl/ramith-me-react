@@ -34,3 +34,12 @@ p{
 .heading p{
     color: rgb(197, 197, 197);
 }
+
+.loading-screen{
+    display: flex;
+    align-content: center;
+    height: 100vh;
+    background-color: black;
+    
+}
+

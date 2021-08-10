@@ -13,6 +13,11 @@
     font-family: 'Poppins', sans-serif;
     color: rgb(255, 198, 12);
     font-size: 280%;
+    
+}
+
+.home-div .hello{
+    margin-top: -50px;
 }
 .home-div p{
     color: white;
